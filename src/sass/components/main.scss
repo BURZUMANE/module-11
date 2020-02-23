@@ -1,0 +1,156 @@
+
+
+
+
+
+/* MAIN */
+/* INTRO */
+
+
+.intro{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+    background: url(../images/main-bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: $white-text;
+    padding: 0 0 100px 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          background: url(../images/main-bg@2x.png) no-repeat center;
+      }
+
+    &__content-wrapper{
+        width: 60%;
+    }
+    
+    &__title{
+        font-size: 150px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+      
+    &__sub-title{
+        font-size: 72px;
+        font-family: 'Kaushan Script';
+        display: block;
+        text-transform: none;
+    }
+    
+    &__button{
+        width: 164px;
+        height: 44px;
+        border: 3px solid #ffffff;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 14px;
+        color: $white-text;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,&:focus{
+            color: $hover-color;
+            border-color: $hover-color;
+    
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+/* SERVICES-SECTION */
+.services {
+    padding: 84px 0 100px 0;
+}
+
+.section-titles {
+    text-align: center;
+    margin-bottom: 58px;
+
+    &::after {
+        display: block;
+        margin: 26px auto 0 auto;
+        content: "";
+        background-color: $section-title-line-color;
+        width: 60px;
+        height: 3px;
+    }
+    
+    &__title{
+        font-size: 30px;
+        font-family: "Montserrat";
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    &__title_span {
+        display: block;
+        font-size: 24px;
+        font-family: 'Kaushan Script', cursive;
+        color: #333333;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        text-transform: none;
+    }
+    
+}
+
+
+
+
+
+.services-list {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    &__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 382px;
+        padding-left: 82px;
+    }
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        color: #333333;
+        text-transform: uppercase;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+    
+    &__content {
+        font-size: 15px;
+        font-family: "Roboto";
+        color: #999999;
+        line-height: 1.6;
+    }
+}
+
+
+

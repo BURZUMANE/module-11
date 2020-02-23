@@ -1,0 +1,40 @@
+
+
+/* SPRITES */
+
+.services-list{
+    &__item{
+        &_icon {
+            background-repeat: no-repeat;
+            background-position: left 20px top;
+            
+        }
+        &_alarm {
+            background-image: url(../images/svg/ALARM.svg);
+        }
+        
+        &_diagram {
+            background-image: url(../images/svg/GRAPH.svg);
+        }
+        
+        &_comp {
+            background-image: url(../images/svg/COMPUTER.svg);
+        }
+        
+        &_book {
+            background-image: url(../images/svg/BOOK.svg);
+        }
+        
+        &_home {
+            background-image: url(../images/svg/HOME.svg);
+        }
+        
+        &_digital {
+            background-image: url(../images/svg/IMAGE.svg);
+        }
+    }
+}
+
+
+
+

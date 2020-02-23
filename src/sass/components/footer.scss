@@ -1,0 +1,70 @@
+
+
+/* FOOTER */
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    border-top: 1px solid #e5e5e5;
+    padding: 12px 0;
+}
+
+.footer__credit {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #333333;
+    line-height: 1.2;
+  }
+
+  .footer__credit-link{
+      display: inline-block;
+      color: #f38181;
+  }
+/* FORM */
+  .my-form{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+  }
+  
+
+ .my-form-input{
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: block;
+      border: 1px solid #e7e7e7;
+      border-right: 0;
+      width: 234px;
+      height: 40px;
+      padding-left: 12px;
+      font-size: 15px;
+      font-family: "Roboto";
+      color: #333333;
+      font-style: italic;
+      line-height: 1.6;
+      outline: none;
+  }
+
+
+
+ .my-form-submit{
+      display: block;
+      border: none;
+      background-color: #95e1d3;
+      color: #ffffff;
+      width: 150px;
+      height: 40px;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+  }

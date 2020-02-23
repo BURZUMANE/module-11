@@ -1,0 +1,110 @@
+/* HEADER */
+
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 12px 0 10px 0;
+}
+
+
+.logo {
+    display: block;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.main-nav__item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+}
+
+.menu-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.menu-list__item:not(:last-child){
+    margin-right: 29px;
+}
+
+
+.menu-list__item-link{
+    display: block;
+    color: #fff;
+    position: relative;
+}
+
+.menu-list__item-link:hover, .menu-list__item-link:after {
+    color: #fce38a;
+}
+
+.menu-list__item-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #fce38a;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+    margin-top: 12px;
+    position: absolute;
+    bottom: -12px;
+}
+
+.menu-list__item-link:hover::after {
+    width: 100%;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+}
+
+.nav-actions{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0;
+    width: 76px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.nav-actions__icon{
+    fill: #fff;
+}
+
+.nav-actions__icon:hover, .nav-actions__icon:focus{
+    fill: #fce38a;
+}
