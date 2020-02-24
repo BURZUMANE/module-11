@@ -47,11 +47,12 @@
     height: 56px;
     width: 56px;
     background-color: #fce38a;
+    &:hover{
+        background-color: #f38181;
+    }
 }
 
-.socials__item:hover{
-    background-color: #f38181;
-}
+
 .social-icon{
     fill:#f38181;
 }

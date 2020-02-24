@@ -13,19 +13,20 @@
             align-items: baseline;
     border-top: 1px solid #e5e5e5;
     padding: 12px 0;
+    &__credit {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #333333;
+        line-height: 1.2;
+      }
+    
+    &__credit-link{
+        display: inline-block;
+        color: #f38181;
+    }
 }
 
-.footer__credit {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: #333333;
-    line-height: 1.2;
-  }
 
-  .footer__credit-link{
-      display: inline-block;
-      color: #f38181;
-  }
 /* FORM */
   .my-form{
       display: -webkit-box;
